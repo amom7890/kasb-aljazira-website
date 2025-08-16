@@ -231,14 +231,14 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Bedrooms */}
+            {/* Wardrobes and Bedrooms */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-green-200">
               <CardHeader className="pb-4">
                 <div className="w-full h-48 bg-gradient-to-br from-green-200 to-green-300 rounded-lg flex items-center justify-center mb-4">
                   <Home className="w-16 h-16 text-green-700" />
                 </div>
-                <CardTitle className="text-green-800 text-xl">غرف النوم</CardTitle>
-                <CardDescription>تصاميم عصرية وكلاسيكية لغرف النوم</CardDescription>
+                <CardTitle className="text-green-800 text-xl">دواليب وغرف نوم</CardTitle>
+                <CardDescription>تصاميم عصرية وكلاسيكية للدواليب وغرف النوم</CardDescription>
               </CardHeader>
               <CardContent>
                 <Button variant="outline" className="w-full border-green-600 text-green-600 hover:bg-green-50">
@@ -247,14 +247,14 @@ function App() {
               </CardContent>
             </Card>
 
-            {/* Kitchens */}
+            {/* TV Decorations */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-green-200">
               <CardHeader className="pb-4">
                 <div className="w-full h-48 bg-gradient-to-br from-emerald-200 to-emerald-300 rounded-lg flex items-center justify-center mb-4">
-                  <Menu className="w-16 h-16 text-emerald-700" />
+                  <Contact className="w-16 h-16 text-emerald-700" />
                 </div>
-                <CardTitle className="text-green-800 text-xl">المطابخ</CardTitle>
-                <CardDescription>مطابخ عملية وأنيقة بأحدث التصاميم</CardDescription>
+                <CardTitle className="text-green-800 text-xl">ديكورات TV</CardTitle>
+                <CardDescription>وحدات تلفزيون عصرية ومتطورة</CardDescription>
               </CardHeader>
               <CardContent>
                 <Button variant="outline" className="w-full border-green-600 text-green-600 hover:bg-green-50">
@@ -263,14 +263,14 @@ function App() {
               </CardContent>
             </Card>
 
-            {/* Decorations */}
+            {/* Interior Wood Decorations */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-green-200">
               <CardHeader className="pb-4">
                 <div className="w-full h-48 bg-gradient-to-br from-teal-200 to-teal-300 rounded-lg flex items-center justify-center mb-4">
                   <Briefcase className="w-16 h-16 text-teal-700" />
                 </div>
-                <CardTitle className="text-green-800 text-xl">الديكورات</CardTitle>
-                <CardDescription>ديكورات داخلية تضفي لمسة جمالية</CardDescription>
+                <CardTitle className="text-green-800 text-xl">ديكورات خشبية داخلية</CardTitle>
+                <CardDescription>ديكورات خشبية تضفي لمسة جمالية وفخامة</CardDescription>
               </CardHeader>
               <CardContent>
                 <Button variant="outline" className="w-full border-green-600 text-green-600 hover:bg-green-50">
@@ -279,14 +279,14 @@ function App() {
               </CardContent>
             </Card>
 
-            {/* TV Units */}
+            {/* Wooden Doors */}
             <Card className="group hover:shadow-xl transition-all duration-300 border-green-200">
               <CardHeader className="pb-4">
                 <div className="w-full h-48 bg-gradient-to-br from-cyan-200 to-cyan-300 rounded-lg flex items-center justify-center mb-4">
-                  <Contact className="w-16 h-16 text-cyan-700" />
+                  <Menu className="w-16 h-16 text-cyan-700" />
                 </div>
-                <CardTitle className="text-green-800 text-xl">ديكورات التيفي</CardTitle>
-                <CardDescription>وحدات تلفزيون عصرية ومتطورة</CardDescription>
+                <CardTitle className="text-green-800 text-xl">أبواب خشبية</CardTitle>
+                <CardDescription>أبواب خشبية بتصاميم فريدة وجودة عالية</CardDescription>
               </CardHeader>
               <CardContent>
                 <Button variant="outline" className="w-full border-green-600 text-green-600 hover:bg-green-50">
