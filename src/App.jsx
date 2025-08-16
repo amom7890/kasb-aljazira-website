@@ -257,7 +257,16 @@ function App() {
                 <CardDescription>وحدات تلفزيون عصرية ومتطورة</CardDescription>
               </CardHeader>
               <CardContent>
-                <Button variant="outline" className="w-full border-green-600 text-green-600 hover:bg-green-50">
+                <div className="grid grid-cols-2 gap-2">
+                  <img src="/images/tv_decorations/P1.jpg" alt="TV Decoration 1" className="w-full h-auto rounded-lg" />
+                  <img src="/images/tv_decorations/P2.jpg" alt="TV Decoration 2" className="w-full h-auto rounded-lg" />
+                  <img src="/images/tv_decorations/P3.jpg" alt="TV Decoration 3" className="w-full h-auto rounded-lg" />
+                  <img src="/images/tv_decorations/P4.jpg" alt="TV Decoration 4" className="w-full h-auto rounded-lg" />
+                  <img src="/images/tv_decorations/P5.jpg" alt="TV Decoration 5" className="w-full h-auto rounded-lg" />
+                  <img src="/images/tv_decorations/P6.jpg" alt="TV Decoration 6" className="w-full h-auto rounded-lg" />
+                  <img src="/images/tv_decorations/P7.jpg" alt="TV Decoration 7" className="w-full h-auto rounded-lg" />
+                </div>
+                <Button variant="outline" className="w-full border-green-600 text-green-600 hover:bg-green-50 mt-4">
                   عرض المزيد
                 </Button>
               </CardContent>
